@@ -9,14 +9,12 @@
 
 #import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
-#import <IOKit/hidsystem/ev_keymap.h>
 
 @interface gsdAppDelegate : NSApplication
 
-@property (unsafe_unretained) IBOutlet NSWindow *window;
-@property (weak) IBOutlet NSView *mainView;
-@property (weak) IBOutlet WebView *mainWebView;
-
+@property (retain) IBOutlet NSWindow *window;
+@property (retain) IBOutlet NSView *mainView;
+@property (retain) IBOutlet WebView *mainWebView;
 
 @end
 
