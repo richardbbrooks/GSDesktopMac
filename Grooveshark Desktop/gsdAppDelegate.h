@@ -11,14 +11,12 @@
 #import <WebKit/WebKit.h>
 #import <IOKit/hidsystem/ev_keymap.h>
 
-
-//@interface gsdAppDelegate : NSObject <NSApplicationDelegate>
-
 @interface gsdAppDelegate : NSApplication
 
-@property (assign) IBOutlet NSWindow *window;
+@property (unsafe_unretained) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSView *mainView;
 @property (weak) IBOutlet WebView *mainWebView;
+
 
 @end
 

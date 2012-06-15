@@ -444,6 +444,7 @@
 				798B48D9158AFF87003037CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		798B48DA158AFF87003037CC /* Build configuration list for PBXNativeTarget "Grooveshark DesktopTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +453,7 @@
 				798B48DC158AFF87003037CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,16 +15,18 @@
 @synthesize mainView = _mainView;
 @synthesize mainWebView = _mainWebView;
 
-
-//int NX_KEYTYPE_PLAY = 16;
-//int NX_KEYTYPE_NEXT = 19;
-//int NX_KEYTYPE_PREVIOUS = 20;
+//Todo - not hardcode this. Grab it from what it should be.
+NSString* userAgent = @"Mozilla/5.0 Macintosh Intel Mac OS X 10_7_4 AppleWebKit/534.57.2 KHTML, like Gecko Version/5.1.7 Safari/534.57.2";
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    [_mainWebView setCustomUserAgent:userAgent];
+    
     NSURL*url=[NSURL URLWithString:@"http://grooveshark.com"];
     NSURLRequest*request=[NSURLRequest requestWithURL:url];
-    [[_mainWebView mainFrame] loadRequest:request];
+    [[_mainWebView mainFrame] loadRequest:request];    
+    
+    NSLog(@"Custom user agent: %@", _mainWebView.customUserAgent);
 }
 
 - (void)sendEvent: (NSEvent*)event
