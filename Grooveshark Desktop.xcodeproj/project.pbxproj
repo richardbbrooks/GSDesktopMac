@@ -17,6 +17,8 @@
 		798B48C9158AFF87003037CC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798B48A9158AFF87003037CC /* Cocoa.framework */; };
 		798B48D1158AFF87003037CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798B48CF158AFF87003037CC /* InfoPlist.strings */; };
 		798B48D4158AFF87003037CC /* Grooveshark_DesktopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 798B48D3158AFF87003037CC /* Grooveshark_DesktopTests.m */; };
+		798B48DE158AFF97003037CC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798B48DD158AFF97003037CC /* WebKit.framework */; };
+		798B48E3158B06FB003037CC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798B48E2158B06FB003037CC /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +37,22 @@
 		798B48AC158AFF87003037CC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		798B48AD158AFF87003037CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		798B48AE158AFF87003037CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		798B48B1158AFF87003037CC /* Grooveshark Desktop-Info.plist */ = {isa = PBXFileReference; path = "Grooveshark Desktop-Info.plist"; sourceTree = "<group>"; };
+		798B48B1158AFF87003037CC /* Grooveshark Desktop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grooveshark Desktop-Info.plist"; sourceTree = "<group>"; };
 		798B48B3158AFF87003037CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		798B48B5158AFF87003037CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		798B48B7158AFF87003037CC /* Grooveshark Desktop-Prefix.pch */ = {isa = PBXFileReference; path = "Grooveshark Desktop-Prefix.pch"; sourceTree = "<group>"; };
+		798B48B7158AFF87003037CC /* Grooveshark Desktop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grooveshark Desktop-Prefix.pch"; sourceTree = "<group>"; };
 		798B48B9158AFF87003037CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		798B48BB158AFF87003037CC /* gsdAppDelegate.h */ = {isa = PBXFileReference; path = gsdAppDelegate.h; sourceTree = "<group>"; };
+		798B48BB158AFF87003037CC /* gsdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsdAppDelegate.h; sourceTree = "<group>"; };
 		798B48BC158AFF87003037CC /* gsdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gsdAppDelegate.m; sourceTree = "<group>"; };
 		798B48BF158AFF87003037CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		798B48C6158AFF87003037CC /* Grooveshark DesktopTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grooveshark DesktopTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		798B48C7158AFF87003037CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		798B48CE158AFF87003037CC /* Grooveshark DesktopTests-Info.plist */ = {isa = PBXFileReference; path = "Grooveshark DesktopTests-Info.plist"; sourceTree = "<group>"; };
+		798B48CE158AFF87003037CC /* Grooveshark DesktopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grooveshark DesktopTests-Info.plist"; sourceTree = "<group>"; };
 		798B48D0158AFF87003037CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		798B48D2158AFF87003037CC /* Grooveshark_DesktopTests.h */ = {isa = PBXFileReference; path = Grooveshark_DesktopTests.h; sourceTree = "<group>"; };
+		798B48D2158AFF87003037CC /* Grooveshark_DesktopTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grooveshark_DesktopTests.h; sourceTree = "<group>"; };
 		798B48D3158AFF87003037CC /* Grooveshark_DesktopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grooveshark_DesktopTests.m; sourceTree = "<group>"; };
+		798B48DD158AFF97003037CC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		798B48E2158B06FB003037CC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798B48E3158B06FB003037CC /* IOKit.framework in Frameworks */,
+				798B48DE158AFF97003037CC /* WebKit.framework in Frameworks */,
 				798B48AA158AFF87003037CC /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +81,8 @@
 		798B489A158AFF87003037CC = {
 			isa = PBXGroup;
 			children = (
+				798B48E2158B06FB003037CC /* IOKit.framework */,
+				798B48DD158AFF97003037CC /* WebKit.framework */,
 				798B48AF158AFF87003037CC /* Grooveshark Desktop */,
 				798B48CC158AFF87003037CC /* Grooveshark DesktopTests */,
 				798B48A8158AFF87003037CC /* Frameworks */,

@@ -1,30 +1,22 @@
 //
-//  gsdAppDelegate.m
+//  gsdApp.m
 //  Grooveshark Desktop
 //
 //  Created by Richard Brooks on 6/15/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+#import "gsdApp.h"
 
-#import "gsdAppDelegate.h"
-
-@implementation gsdAppDelegate
+@implementation gsdApp
 
 @synthesize window = _window;
-@synthesize mainView = _mainView;
-@synthesize mainWebView = _mainWebView;
-
-
-//int NX_KEYTYPE_PLAY = 16;
-//int NX_KEYTYPE_NEXT = 19;
-//int NX_KEYTYPE_PREVIOUS = 20;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     NSURL*url=[NSURL URLWithString:@"http://grooveshark.com"];
     NSURLRequest*request=[NSURLRequest requestWithURL:url];
-    [[_mainWebView mainFrame] loadRequest:request];
+    [[_MainWebView mainFrame] loadRequest:request];
 }
 
 - (void)sendEvent: (NSEvent*)event
@@ -46,25 +38,23 @@
 {
     NSLog (@"Key is %d", key );
     
-    
-	switch( key )
+	/*switch( key )
      {
      case NX_KEYTYPE_PLAY:
      if( state == 0 )
-         [ _mainWebView stringByEvaluatingJavaScriptFromString: @"GS.player.togglePlayPause()" ];
+     ; //Play pressed and released
      break;
      
      case NX_KEYTYPE_FAST:
      if( state == 0 )
-         [ _mainWebView stringByEvaluatingJavaScriptFromString: @"GS.player.nextSong()" ];
+     ; //Next pressed and released
      break;
      
      case NX_KEYTYPE_REWIND:
      if( state == 0 )
-         [ _mainWebView stringByEvaluatingJavaScriptFromString: @"GS.player.previousSong()" ];
+     ; //Previous pressed and released
      break;
-     }
+     }*/
 }
 
 @end
- 
