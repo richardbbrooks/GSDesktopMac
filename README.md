@@ -4,7 +4,7 @@ This application aims to be a method of using Grooveshark on you Mac that provid
 
 ## Installation
 
-1. Go to the downloads tab on the right and download the .zip file.
+1. Go to the [downloads](https://github.com/rich90usa/GSDesktopMac/downloads) tab on the right and download the .zip file.
 2. Extract the .app from the archive and place in your Applications folder.
 
 ## Important Notes
