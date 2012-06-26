@@ -3,7 +3,7 @@
 //  Grooveshark Desktop
 //
 //  Created by Richard Brooks on 6/15/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Grooveshark. All rights reserved.
 //
 
 #import "gsdAppDelegate.h"
@@ -16,7 +16,7 @@
 @synthesize mainWebView;
 
 //Todo - not hardcode this. Grab it from what it should be.
-static NSString *userAgent = @"Mozilla/5.0 Macintosh Intel Mac OS X 10_7_4 AppleWebKit/534.57.2 KHTML, like Gecko Version/5.1.7 Safari/534.57.2";
+static NSString *userAgent = @"Mozilla/5.0 Macintosh Intel Mac OS X 10_7_4 AppleWebKit/534.57.2 KHTML, like Gecko Version/5.1.7 Safari/534.57.2 GroovesharkDesktopMac/0.1";
 
 -(void)dealloc
 {
@@ -81,4 +81,4 @@ static NSString *userAgent = @"Mozilla/5.0 Macintosh Intel Mac OS X 10_7_4 Apple
 }
 
 @end
- 
+

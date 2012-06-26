@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7947A8541599F0EB005B2D2B /* Grooveshark_Logo_No-Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 7947A8531599F0EB005B2D2B /* Grooveshark_Logo_No-Text.png */; };
 		798B48AA158AFF87003037CC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798B48A9158AFF87003037CC /* Cocoa.framework */; };
 		798B48B4158AFF87003037CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798B48B2158AFF87003037CC /* InfoPlist.strings */; };
 		798B48B6158AFF87003037CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 798B48B5158AFF87003037CC /* main.m */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7947A8531599F0EB005B2D2B /* Grooveshark_Logo_No-Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grooveshark_Logo_No-Text.png"; sourceTree = "<group>"; };
 		798B48A5158AFF87003037CC /* Grooveshark Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grooveshark Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		798B48A9158AFF87003037CC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		798B48AC158AFF87003037CC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -81,6 +83,7 @@
 		798B489A158AFF87003037CC = {
 			isa = PBXGroup;
 			children = (
+				7947A8531599F0EB005B2D2B /* Grooveshark_Logo_No-Text.png */,
 				798B48E2158B06FB003037CC /* IOKit.framework */,
 				798B48DD158AFF97003037CC /* WebKit.framework */,
 				798B48AF158AFF87003037CC /* Grooveshark Desktop */,
@@ -235,6 +238,7 @@
 				798B48B4158AFF87003037CC /* InfoPlist.strings in Resources */,
 				798B48BA158AFF87003037CC /* Credits.rtf in Resources */,
 				798B48C0158AFF87003037CC /* MainMenu.xib in Resources */,
+				7947A8541599F0EB005B2D2B /* Grooveshark_Logo_No-Text.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +353,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -370,8 +374,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
@@ -381,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Grooveshark Desktop/Grooveshark Desktop-Prefix.pch";
 				INFOPLIST_FILE = "Grooveshark Desktop/Grooveshark Desktop-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Grooveshark Desktop/Grooveshark Desktop-Prefix.pch";
 				INFOPLIST_FILE = "Grooveshark Desktop/Grooveshark Desktop-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -3,7 +3,7 @@
 //  Grooveshark Desktop
 //
 //  Created by Richard Brooks on 6/15/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Grooveshark. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
